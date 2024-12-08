@@ -7,10 +7,12 @@ fn divide(numerator: f64, denominator: f64) -> Option<f64> {
         Some(numerator / denominator)
     }
 }
+fn 
 
 fn main() {
     // The return value of the function is an option
-    let result = divide(2.0, 3.0);
+   // let result = divide(2.0, 3.0);
+   let result=divide(5.0,0.0);
 
     // Pattern match to retrieve the value
     match result {
