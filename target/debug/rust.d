@@ -1,1 +1,1 @@
-/home/sthita/rust/target/debug/rust: /home/sthita/rust/src/main.rs
+C:\Users\KIIT0001\Downloads\rust\target\debug\rust.exe: C:\Users\KIIT0001\Downloads\rust\src\main.rs
