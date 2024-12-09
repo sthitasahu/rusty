@@ -7,7 +7,7 @@ fn divide(numerator: f64, denominator: f64) -> Option<f64> {
         Some(numerator / denominator)
     }
 }
-fn 
+
 
 fn main() {
     // The return value of the function is an option
