@@ -1,0 +1,1 @@
+fn(axum::extract::Path<Uuid>, Json<Task>) -> impl std::future::Future<Output = impl IntoResponse> {update_task}
