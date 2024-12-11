@@ -1,7 +1,7 @@
 use std::fs;
 fn main() {
     println!("THis is a basic example on how to read contents of a file in rust using the standard file module in RUST");
-    let filepath="hello2.txt";
+    let filepath="hello.txt";
     let contents_of_the_file=fs::read_to_string(filepath);
     match contents_of_the_file{
         Ok(content)=>{
