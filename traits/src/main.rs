@@ -1,21 +1,23 @@
-
-fn main() {
-     let ans;
-    let a=String::from("small");
-    {
-      let b=String::from("longer");   
-      ans=longest_string(a,b);
-    }
-
-    println!("{}",ans);
+trait Eat{
+    fn eat(&self);
 }
 
+struct Person{
+   name:String,
+}
+impl Eat for Person{
+   fn eat(&self){
+      println!("{} is eating",self.name);
+    }
+}
 
-fn longest_string(a:String,b:String)->String{
-    if a.len()>b.len(){
-        return a;
-    }
-    else{
-        return b;
-    }
+fn main(){
+   let person1=Person{
+    name:String::from("Sthita"),
+   };
+   person1.eat();
+   let person2=Person{
+    name:String::from("Sahu"),
+   };
+   person2.eat();
 }
