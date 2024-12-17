@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 inquire = "0.5.3"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
