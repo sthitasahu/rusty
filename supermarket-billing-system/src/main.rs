@@ -7,6 +7,7 @@ use product::show_products;
 
 use inquire::Select;
 
+
 fn main() {
     println!("-------------------------------------------");
     println!("Welcome to Schrute Farms\nBy Dwight Schrute");
